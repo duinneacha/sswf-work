@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>The Pants Pizza Parlour</title>
+    </head>
+
+    <body>
+
+        <form action="pizza.php" method="get">
+            <fieldset>
+                <legend>Size</legend>
+                <div>
+                    <input type="radio" name="size" value="small" id="small" checked="checked" />
+                    <label for="small">Small</label>
+                    <input type="radio" name="size" value="medium" id="medium" />
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="size" value="large" id="large" />
+                    <label for="large">Large</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Crust</legend>
+                <div>
+                    <input type="radio" name="crust" value="thin" id="thin" checked="checked" />
+                    <label for="thin">Thin-crust</label>
+                    <input type="radio" name="crust" value="deep" id="deep" />
+                    <label for="deep">Deep-pan</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Extra toppings</legend>
+                <div>
+                    <input type="checkbox" name="toppings[]" value="mushrooms" id="mushrooms" />
+                    <label for="mushrooms">Mushrooms</label>
+                    <input type="checkbox" name="toppings[]" value="olives" id="olives" />
+                    <label for="olives">Olives</label>
+                    <input type="checkbox" name="toppings[]" value="nail" id="nail" />
+                    <label for="nail">Finger nail</label>
+                    <input type="checkbox" name="toppings[]" value="beef" id="beef" />
+                    <label for="beef">Spicy beef</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery</legend>
+                <div>
+                    <input type="checkbox" name="delivery" value="home" id="home" />
+                    <label for="home">Check the box if you want home delivery</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </div>    
+            </fieldset>
+        </form>
+
+    </body>
+</html>

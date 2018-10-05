@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Stamp Duty Calculator</title>
+    </head>
+
+    <body>
+
+        <form action="duty.php" method="get">
+
+            <div>
+                <input type="radio" name="house" value="new" id="new" checked="checked" />
+                <label for="new">New house</label>
+                <input type="radio" name="house" value="old" id="old" />
+                <label for="old">Second-hand</label>
+            </div>
+            <div>
+                <input type="radio" name="buyer" value="first" id="first" checked="checked" />
+                <label for="first">First time buyer</label>
+                <input type="radio" name="buyer" value="existing" id="existing" />
+                <label for="existing">Non-first time buyer</label>
+            </div>
+            <div>
+                <input type="radio" name="occupation" value="owner" id="owner" checked="checked" />
+                <label for="owner">Owner occupied</label>
+                <input type="radio" name="occupation" value="investor" id="investor" />
+                <label for="investor">Investor</label>
+            </div>        
+            <div>
+                <label for="price">Property price (euros):</label>
+                <input type="text" name="price" size="7" maxlength="7" id="price" />  
+            </div>
+            <div>
+                <label for="area">Property area (square metres):</label>
+                <input type="text" name="area" size="4" maxlength="4" id="area" />  
+            </div>
+        
+            <div id="buttons">
+                <input type="submit" value="GO!" />
+                <input type="reset" value="CLEAR" />
+            </div>    
+        
+        </form>
+
+    </body>
+</html>

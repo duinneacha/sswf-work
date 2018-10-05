@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Is this how you get your kicks?</title>
+    </head>
+
+    <body>
+
+        <form action="class.php" method="get">
+            <fieldset>
+                <legend>Sex</legend>
+                <div>
+                    <input type="radio" name="sex" value="female" id="female" checked="checked" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="sex" value="male" id="male" />
+                    <label for="male">Male</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Weight</legend>
+                <div>
+                    <label for="weight">Weight (kg): </label>
+                    <input type="text" name="weight" value="0.0" id="weight" size="6" maxlength="6" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Shi Jak" />
+                    <input type="reset" value="Hae san" />
+                </div>    
+            </fieldset>
+        </form>
+
+    </body>
+</html>

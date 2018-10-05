@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Your voting rights</title>
+    </head>
+
+    <body>
+
+        <form action="votes.php" method="get">
+
+            <fieldset>
+                <legend>What's your age?</legend>
+                <div>
+                    <input type="radio" name="age" value="child" id="child" checked="checked" />
+                    <label for="child">Less than 18 years old</label>
+                    <input type="radio" name="age" value="adult" id="adult" />
+                    <label for="adult">At least 18 years old</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Where do you live?</legend>
+                <div>
+                    <input type="radio" name="residency" value="home" id="home" checked="checked" />
+                    <label for="home">In Ireland</label>
+                    <input type="radio" name="residency" value="abroad" id="abroad" />
+                    <label for="abroad">Not in Ireland</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Your nationality</legend>
+                <div>
+                    <input type="radio" name="nationality" value="irish" id="irish" checked="checked" />
+                    <label for="irish">Irish</label>
+                    <input type="radio" name="nationality" value="british" id="british" />
+                    <label for="british">British</label>
+                    <input type="radio" name="nationality" value="other_eu" id="other_eu" />
+                    <label for="other_eu">Other EU</label>
+                    <input type="radio" name="nationality" value="non_eu" id="non_eu" />
+                    <label for="non_eu">Non-EU</label>    
+                </div>
+            </fieldset>
+        
+            <div id="buttons">
+                <input type="submit" value="GO!" />
+                <input type="reset" value="CLEAR" />
+            </div>    
+        
+        </form>
+
+    </body>
+</html>

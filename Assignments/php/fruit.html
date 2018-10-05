@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Frugivorous</title>
+    </head>
+
+    <body>
+
+        <form action="fruit.php" method="get">
+            <fieldset>
+                <legend>What would you like to munch on?</legend>
+                <div>
+                    <input type="radio" name="fruit" value="Apples" id="Apples" checked="checked" />
+                    <label for="Apples">Apples</label>
+                    <input type="radio" name="fruit" value="Pears" id="Pears" />
+                    <label for="Pears">Pears</label>
+                    <input type="radio" name="fruit" value="Kumquats" id="Kumquats" />
+                    <label for="Kumquats">Kumquats</label>
+                    <input type="radio" name="fruit" value="Jujubes" id="Jujubes" />
+                    <label for="Jujubes">Jujubes</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>And how much do you want?</legend>
+                <div>
+                    <label for="weight">Weight (kg):</label>
+                    <input type="text" name="weight" size="5" maxlength="5" id="weight" />  
+                </div>
+            </fieldset>
+            <fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </div>    
+            </fieldset>
+        </form>
+
+    </body>
+</html>

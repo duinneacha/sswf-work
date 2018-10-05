@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Old Macdonald's Farm</title>
+    </head>
+
+    <body>
+
+        <form action="farm.php" method="get">
+
+            <fieldset>
+                <legend>Hello children. What animals can you see?</legend>
+                <div>
+                    <input type="checkbox" name="animals[]" value="duck" id="duck" />
+                    <label for="duck">Duck</label>
+                    <input type="checkbox" name="animals[]" value="cow" id="cow" />
+                    <label for="cows">Cow</label>
+                    <input type="checkbox" name="animals[]" value="dog" id="dog" />
+                    <label for="dog">Dog</label>
+                    <input type="checkbox" name="animals[]" value="pig" id="pig" />
+                    <label for="pig">Pig</label>
+                    <input type="checkbox" name="animals[]" value="badger" id="badger" />
+                    <label for="badger">Badger</label>      
+                </div>
+            </fieldset>
+        
+            <div id="buttons">
+                <input type="submit" value="Lock in those lyrics" />
+                <input type="reset" value="Reset" />
+            </div>    
+        
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/RestaurantTest",
+    "JWT_SECRET": "asp09493845329cwefweERWERWER"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/RestaurantDev",
+    "JWT_SECRET": "WERWER23423wqedfsdfsdSDFSDFSDF"
+  }
+}
