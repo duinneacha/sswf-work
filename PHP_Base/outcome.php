@@ -1,29 +1,28 @@
 <?php
 
+  $examResult = $_GET['exam'];
+  $contResult = $_GET['cont'];
+  $projResult = $_GET['proj'];
 
-$examResult = $_GET['exam'];
-$contResult = $_GET['cont'];
-$projResult = $_GET['proj'];
+  if (!is_numeric($examResult)) {
+    echo "Please enter a number representing your Exam Result";
+    return;
+  }
 
-if (!is_numeric($examResult)) {
-  echo "Please enter a number representing your Exam Result";
-  return;
-}
-
-if (!is_numeric($contResult)) {
-  echo "Please enter a number representing your Continous Assessment Result";
-  return;
-}
-if (!is_numeric($projResult)) {
-  echo "Please enter a number for your Project Result";
-  return;
-}
+  if (!is_numeric($contResult)) {
+    echo "Please enter a number representing your Continous Assessment Result";
+    return;
+  }
+  if (!is_numeric($projResult)) {
+    echo "Please enter a number for your Project Result";
+    return;
+  }
 
 
-if ($examResult < 0 || $contResult < 0 || $projResult < 0 || $examResult > 100 || $contResult > 100 || $projResult > 100) {
-  echo "Please enter a valid percentage score for the results";
-  return;
-}
+  if ($examResult < 0 || $contResult < 0 || $projResult < 0 || $examResult > 100 || $contResult > 100 || $projResult > 100) {
+    echo "Please enter a valid percentage score for the results";
+    return;
+  }
 
 ?>
 
@@ -49,11 +48,9 @@ if ($examResult < 0 || $contResult < 0 || $projResult < 0 || $examResult > 100 |
          background-color : black;
       }
 
-
       th, td
       {
          border : solid 1px black;
-         /* text-align : center; */
       }
    </style>
   <title>Exam Results</title>

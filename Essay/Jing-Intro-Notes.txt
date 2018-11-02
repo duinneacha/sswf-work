@@ -1,0 +1,65 @@
+Use template in blackboard.
+
+Introductions:
+
+More descriptive than abstract, but do not place too much details of the paper.
+
+Usually, we have two to three paragraphs.
+
+Paragraphs - minimum 2, usually 3, max 4.
+
+Paragraph 1
+Introduce the problem domain.
+State the art of your problem that motivates you to propose a solution in the paper.
+
+
+In abstract it should be only one/two sentence(s).
+Here us nire details and one paragraph.
+
+
+Paragraph 2
+
+Summarise the solution that you propose. Not too much detail, but NOT just one sentence.
+Usually we start sentence like this . . "In this paper we will comparatively articulate the differences
+between Laraval and Express in terms of efficiency, . . . "
+
+Do not make sentences too long.
+
+
+Be careful for linking the first paragraph with it. Smooth shift between paragraphs 1 & 2.
+
+
+Paragraph 3
+Outline the structure of your paper.
+e.g. The history and development of both frameworks will be intensively stated in the literature review section. A case study,
+presented to support the discussion, will be described in section 3 and experiments are conducted in the subsequent section.
+Finally, the the paper is concluded with a summary.
+
+
+
+---------------
+Once introduction is done:
+This is a separate chapter right after your introduction.
+
+Literature Review/Background
+The length us varied.
+Write the background that is closely relevant to your solution proposed in the paper.
+
+Make sure you citate people's work properly.
+
+N.B. Do not put papers that are not citated in your paper.
+
+For Example, In this paper, we compare PHP and Javascript. In this section, I will 
+write one paragraph including of the language for PHP. Likewise, I will write another 
+paragraph for Javascript.
+
+Structure of your paper.
+------------------------
+Abstract 
+Introduction
+Background/Literature Review
+Case Study
+Experiment
+Conclusion
+Acknowledgements
+Reference
